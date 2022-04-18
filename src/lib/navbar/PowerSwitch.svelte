@@ -6,15 +6,16 @@ let powerOn = false;
 let rendered = false;
 
 onMount(() =>{
+    if ($theme == undefined){
+      theme.set("light-theme");
+    }
     if ($theme =="dark-theme") {
         powerOn = true;
         document.body.classList.add("dark-theme");
         console.log("classlist: "+document.body.classList);
         console.log("dark theme is true");
         console.log("powerOn: "+powerOn);
-    } else {
-        theme.set("light-theme");
-    }
+    } 
     rendered = true;    
     });
 
