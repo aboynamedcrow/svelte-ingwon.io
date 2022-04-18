@@ -86,7 +86,9 @@
 			|| hash(password) === -990662784
 			|| hash(password) === -1505760416
 			)}
-				<embed src="Ingwon Chae Resume 2022.03.pdf" type="application/pdf"/>			
+				<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf">
+				<a href="Ingwon Chae Resume 2022.03.pdf">click here to download</a>
+			</object>		
 	  		{/if}
 		{/key}
 	</div>
@@ -100,10 +102,10 @@
 
 
 
-	embed{
-		width: 100vw;
+	object{
+		width: 100%;
 		height: 130vh;
-		z-index: 1000;
+		text-align: center;
 	}
 
 
