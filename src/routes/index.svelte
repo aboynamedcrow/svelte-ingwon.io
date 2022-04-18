@@ -1,10 +1,8 @@
-<script context="module" lang="ts">
+<script lang="ts">
 	export const prerender = true;
+	let src = "../images/drive.jpg";
 </script>
 
-<script lang="ts">
-	
-</script>
 
 <svelte:head>
 	<title>ingwon.io</title>
@@ -19,7 +17,7 @@
 
 	<div class="welcome">
 		<picture>
-			<img src= "static/drive.jpg"alt="welcome" />
+			<img {src} alt="welcome" />
 		</picture>
 	</div>
 
