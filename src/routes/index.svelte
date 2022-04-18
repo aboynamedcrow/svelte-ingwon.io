@@ -1,6 +1,5 @@
 <script lang="ts">
 	export const prerender = true;
-	let src = "../images/drive.jpg";
 </script>
 
 
@@ -17,7 +16,8 @@
 
 	<div class="welcome">
 		<picture>
-			<img {src} alt="welcome" />
+			<img src= "../drive.jpg" alt="welcome" />
+			
 		</picture>
 	</div>
 

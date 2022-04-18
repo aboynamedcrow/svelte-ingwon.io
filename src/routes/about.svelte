@@ -13,8 +13,6 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 
-	let src = "../images/standing.jpg";
-
 </script>
 
 <svelte:head>
@@ -34,7 +32,7 @@
 		<br>
 		<div class="about">
 			<picture>
-				<img {src} alt="it me" />
+				<img src="static/images/standing.jpg" alt="it me" />
 			</picture>
 		</div>
 		<br>
