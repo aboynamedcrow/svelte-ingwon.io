@@ -103,6 +103,7 @@
 	embed{
 		width: 100%;
 		height: 130vh;
+		z-index: 1000;
 	}
 
 
