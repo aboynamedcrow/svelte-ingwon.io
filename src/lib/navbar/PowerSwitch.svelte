@@ -12,7 +12,9 @@ onMount(() =>{
         console.log("classlist: "+document.body.classList);
         console.log("dark theme is true");
         console.log("powerOn: "+powerOn);
-    } 
+    } else {
+        theme.set("light-theme");
+    }
     rendered = true;    
     });
 

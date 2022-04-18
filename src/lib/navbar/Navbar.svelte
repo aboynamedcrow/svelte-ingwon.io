@@ -157,7 +157,7 @@
 
 
   :global(.show) {
-    height: 1 !important;
+  height: 1 !important;
 	opacity: 0.9 !important;
 	overflow:visible !important;
 	transition: height 1.5s 0s, overflow 5s ease-out;
