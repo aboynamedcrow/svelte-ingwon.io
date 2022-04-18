@@ -25,7 +25,6 @@
         if ($page.url.pathname == $site_card_mapping[i]?.section) {
 
            $whose_card = $site_card_mapping[i].whose_card;
-                  console.log('whose card value is now: '+$whose_card);
             
             for(let j=0; j < $card_values.length; j++) {
 
