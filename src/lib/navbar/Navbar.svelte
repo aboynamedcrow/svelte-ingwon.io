@@ -83,7 +83,7 @@
 
   .dropdown {
     top: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1;
