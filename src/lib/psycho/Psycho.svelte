@@ -78,8 +78,6 @@
 
 <main>
 
-page.url.pathname = page.url.pathname;
-$: page.url.pathname
   {#key $page.url.pathname}
     <div class="container-card">
        <div class="business-card" id={$whose_card}>
