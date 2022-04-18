@@ -72,9 +72,15 @@
 </script>
 
 
-{#key $page.url.pathname}
+
+
+
 
 <main>
+
+page.url.pathname = page.url.pathname;
+$: page.url.pathname
+  {#key $page.url.pathname}
     <div class="container-card">
        <div class="business-card" id={$whose_card}>
             <p class="phone-number">{$phone_number}</p>
@@ -97,9 +103,10 @@
 		    <p></p>
         </div>
     </div>
-</main>
+    {/key}
+  </main>
 
-{/key}
+
 
 <style>
 
