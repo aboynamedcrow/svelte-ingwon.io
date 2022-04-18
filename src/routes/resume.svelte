@@ -1,5 +1,6 @@
 <script>
 	import { browser, dev } from '$app/env';
+	import {fade} from 'svelte/transition';
 
 	let password = '';
 	let clicked = false;
@@ -101,7 +102,7 @@
 
 	embed{
 		width: 100%;
-		height: 100vh;
+		height: 130vh;
 	}
 
 
@@ -128,6 +129,7 @@
 		background-color: rgb(205, 204, 204);
 		color: #222;
 	}
+
 
 
 

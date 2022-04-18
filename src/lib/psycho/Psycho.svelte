@@ -1,4 +1,5 @@
 <script  lang="ts">
+  
 
   import {
         site_card_mapping, //readable
@@ -71,7 +72,7 @@
 </script>
 
 
-{#key whose_card}
+{#key $page.url.pathname}
 
 <main>
     <div class="container-card">
