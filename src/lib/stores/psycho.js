@@ -73,11 +73,11 @@ import { readable,writable } from 'svelte/store';
         {whose_card: 'ingwon-card',
         first_name: 'Ingwon',
         last_name: 'Chae',
-        company: 'Chae & Chae',
-        title: 'Builder',
-        phone_number: '617 758 9124',
+        company: 'Gringotts',
+        title: 'Builder\n& Occasional Troll',
+        phone_number: '+1 617 758 9124',
         bottom_info: '224 Wythe Ave Brooklyn, N.Y. 11249 EMAIL ingwon@gmail.com',
-        murders_and_executions: 'Mergers And Acquisitions',
+        murders_and_executions: 'Wizarding Bank',
         watermark: ''}
 
     ]);

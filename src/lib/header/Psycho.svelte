@@ -21,23 +21,16 @@
   /*onMount(async () => { */
 
      for(let i=0; i< $site_card_mapping.length; i++) {
-                console.log('URL path is '+$page.url.pathname);
-                console.log('checking against section: '+$site_card_mapping[i].section);
+                
         if ($page.url.pathname == $site_card_mapping[i]?.section) {
-                  console.log("WE HAVE A MATCHED URL");
-                  console.log('does pathname '+$page.url.pathname);
-                  console.log('match mapping.section? '+$site_card_mapping[i].section);
-                  console.log('lets update whose_card with '+$site_card_mapping[i].whose_card);
 
            $whose_card = $site_card_mapping[i].whose_card;
                   console.log('whose card value is now: '+$whose_card);
             
             for(let j=0; j < $card_values.length; j++) {
 
-                      console.log('checking '+$card_values[j].whose_card);
                 if ($card_values[j].whose_card == $whose_card){
-                        console.log('matched card_values.whose_card '+$card_values[j].whose_card);
-                        console.log('with $whose_card: '+$whose_card);
+                        
                     $first_name = $card_values[j].first_name;
                     $last_name = $card_values[j].last_name;
                     $company = $card_values[j].company;
@@ -114,6 +107,9 @@
     --patrick-color: #e3dac9;
     --patrick-font: 'EB Garamond';
     --patrick-text-transform: uppercase;
+    --ingwon-color: #ffefd2;
+    --ingwon-font: 'EB Garamond';
+    --ingwon-text-transform: uppercase;
     --van-patten-color: #f0ead6;
     --van-patten-font: 'Old Standard TT';
     --van-patten-text-transform: uppercase;
@@ -174,6 +170,7 @@
       position: absolute;
       top: 50%;
       left: 50%;
+      text-align: center;
       transform: translate(-50%, -50%);
     }
     .first-name {
@@ -205,11 +202,18 @@
       font-size: 1.2vw;
     }
 
-    #patrick-card, #patrick-alt-card, #ingwon-card {
+    #patrick-card, #patrick-alt-card {
       background-color: var(--patrick-color);
       font-family: var(--patrick-font);
       text-transform: var(--patrick-text-transform);
     }
+
+    #ingwon-card {
+      background-color: var(--ingwon-color);
+      font-family: var(--ingwon-font);
+      text-transform: var(--ingwon-text-transform);
+    }
+
     #patrick-card .bottom-info,
     #patrick-alt-card .bottom-info,
     #ingwon-card .bottom-info {
@@ -235,12 +239,24 @@
       text-transform: inherit;
     }
     #patrick-card .company,
-    #patrick-alt-card .company,
-    #ingwon-card .company {
+    #patrick-alt-card .company
+     {
       font-size: 0.95em;
       font-family: inherit;
       text-transform: inherit;
     }
+
+    #ingwon-card .company {
+      font-size: 0.95em;
+      font-family: inherit;
+      text-transform: inherit;
+      text-align: center;
+    }
+
+    #ingwon-card .company-section {
+      text-align: center;
+    }
+
     #patrick-card .murders-and-executions,
     #patrick-alt-card .murders-and-executions,
     #ingwon-card .murders-and-executions {
