@@ -1,7 +1,7 @@
 <script lang="ts">
 
 import Psycho from '$lib/psycho/Psycho.svelte';
-
+import { page } from '$app/stores';
 	
 </script>
 
@@ -9,7 +9,9 @@ import Psycho from '$lib/psycho/Psycho.svelte';
 	<div class="corner">
 	</div>
 
+	{#key $page.url.pathname}
 	<Psycho/>
+	{/key}
 
 	<div class="corner">
 	</div>
