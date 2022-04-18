@@ -1,4 +1,4 @@
-<script lang="ts">
+<script context= "module" lang="ts">
 	export const prerender = true;
 </script>
 
@@ -16,7 +16,7 @@
 
 	<div class="welcome">
 		<picture>
-			<img src= "../drive.jpg" alt="welcome" />
+			<img src= "../static/images/drive.jpg" alt="welcome" />
 			
 		</picture>
 	</div>
@@ -33,7 +33,7 @@
 		flex: 1;
 		text-align: center;
 		width: 100%;
-		height: 100vh;
+		height: auto;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 		margin-bottom: 50vh;

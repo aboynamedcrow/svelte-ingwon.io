@@ -12,7 +12,7 @@
           bottom_info, //writable
           murders_and_executions, //writable
           watermark //writable
-      } from "$lib/psycho/psycho-map.js";
+      } from "$lib/stores/psycho-map.js";
     import { page } from '$app/stores';
     import {onMount} from 'svelte';
   

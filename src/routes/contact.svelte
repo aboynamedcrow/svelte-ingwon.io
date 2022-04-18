@@ -65,7 +65,8 @@ import About from './about.svelte';
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 		background-color: var(--background-color);
-		height: 100vh;
+		height: auto;
+		margin-bottom: 50vh;
 	}
 
 	h1 {
@@ -79,9 +80,6 @@ import About from './about.svelte';
 	}
 
 	h2 {
-		position: sticky;
-		top: 100px;
-		padding-bottom: 0.7em;
 		text-align: center;
 		opacity: 1;
 		width: 100%;

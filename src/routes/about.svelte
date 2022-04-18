@@ -32,12 +32,12 @@
 		<br>
 		<div class="about">
 			<picture>
-				<img src="static/images/standing.jpg" alt="it me" />
+				<img src="../static/images/standing.jpg" alt="it me" />
 			</picture>
 		</div>
 		<br>
 		<p id="center">
-			look, it me!
+			it me!
 		  </p>
 		<br>
 		<br>
@@ -56,9 +56,10 @@
 <style>
 	.content {
 		width: 100%;
-		height: 100vh;
+		height: auto;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
+		margin-bottom: 50vh;
 	}
 
 	#center {

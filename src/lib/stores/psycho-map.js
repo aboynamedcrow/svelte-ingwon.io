@@ -76,7 +76,7 @@ import { readable,writable } from 'svelte/store';
         company: 'Gringotts',
         title: 'Builder\n& Occasional Troll',
         phone_number: '+1 617 758 9124',
-        bottom_info: '224 Wythe Ave Brooklyn, N.Y. 11249 EMAIL ingwon@gmail.com',
+        bottom_info: '7 Diagon Alley, London WC2N 4HP, United Kingdom',
         murders_and_executions: 'Wizarding Bank',
         watermark: ''}
 

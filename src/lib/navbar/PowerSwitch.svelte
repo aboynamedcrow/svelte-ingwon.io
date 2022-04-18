@@ -1,6 +1,6 @@
 <script lang="ts">
 import {onMount} from "svelte";
-import theme from '$lib/navbar/theme';
+import theme from '$lib/stores/theme';
 
 let powerOn = false;
 let rendered = false;

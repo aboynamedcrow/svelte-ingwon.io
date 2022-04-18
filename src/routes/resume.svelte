@@ -1,21 +1,29 @@
 <script>
 	import { browser, dev } from '$app/env';
 
-	//password is 'exeter'
 	let password = '';
 	let clicked = false;
-  let hash = s =>
+
+  	let hash = s =>
     s.split('').reduce((a, b) => {
       a = (a << 5) - a + b.charCodeAt(0)
       return a & a
     }, 0)
 
+	if (password == ''){
+		clicked = false;
+	}
+
 	function submitHandler() {
-		clicked = true;
-		if (password === 'exeter') {
-			return
+			clicked = true;
+		if ((hash(password) === -1289476913
+				|| hash(password) === 2089357551
+				|| hash(password) === -1923248972
+				|| hash(password) === -10098508
+				|| hash(password) === -990662784
+				|| hash(password) === -1505760416)) {
 		} else {
-			alert('Incorrect password.\nFor a copy of the resumé, please contact Ingwon.');
+			alert("For access, please contact Ingwon.\nAlternatively, here's a clue:\n\n'Goodness without knowledge is weak and feeble,\nYet knowledge without goodness is dangerous.\nBoth united form the noblest character\nAnd lay the surest foundation of usefulness to mankind.'\n\nWhat do Patrick Bateman and Mark Zuckerberg have in common?");
 		}
 	}
 
@@ -43,7 +51,16 @@
 	<div class="content"
 		id = "resume">
 			<h1>download resumé</h1>
+			{#if (clicked == true &&
+				(hash(password) === -1289476913
+				|| hash(password) === 2089357551
+				|| hash(password) === -1923248972
+				|| hash(password) === -10098508
+				|| hash(password) === -990662784
+				|| hash(password) === -1505760416
+				))}
 			<h3>last updated: March 2022</h3>
+			{/if}
 			<br>
 	</div>
 		
@@ -59,9 +76,18 @@
 			</form>
 			<br><br><br><br>
 		</div>
-			{#if clicked && hash(password) === -1289476913}
+		{#key clicked}			
+			{#if clicked == true &&
+			(hash(password) === -1289476913
+			|| hash(password) === 2089357551
+			|| hash(password) === -1923248972
+			|| hash(password) === -10098508
+			|| hash(password) === -990662784
+			|| hash(password) === -1505760416
+			)}
 				<embed src="Ingwon Chae Resume 2022.03.pdf" type="application/pdf"/>			
 	  		{/if}
+		{/key}
 	</div>
 	
 	
@@ -81,15 +107,16 @@
 
 	.container-content {
 		width: 100%;
-		height: 100vh;
+		height: auto;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 		background-color: var(--background-color);
+		margin-bottom: 50vh;
 	}
 
 	input, button {
 		font-family: var(--font);
-		background-color: rgba(255, 255, 255, 0.45);
+		background-color: rgba(255, 255, 255, 0.5);
 		color: var(--text-color);
 		border-radius: 3px;
 		box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
