@@ -16,7 +16,7 @@
 
 	<div class="welcome">
 		<picture>
-			<img src= "../static/images/drive.jpeg" alt="welcome" />
+			<img src= "static/images/drive.jpeg" alt="welcome" />
 			
 		</picture>
 	</div>
