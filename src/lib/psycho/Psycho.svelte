@@ -49,6 +49,8 @@
 
       }
 
+      $page.url.pathname = $page.url.pathname;
+
  /*     if ( $(window).width() >= 600 ) {
     function rotate(event) {
         var x = event.clientX;
