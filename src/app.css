@@ -45,6 +45,7 @@ html{
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 	-moz-text-size-adjust: none;
+	overscroll-behavior-y: contain;
 }
 
 :global(body) {
@@ -53,6 +54,7 @@ html{
 	font-family: var(--font);
     color: var(--text-color);
 	background-color: var(--background-color);
+	overscroll-behavior-y: contain;
 	/*background: linear-gradient(
 		180deg,
 		var(--primary-color) 0%,
