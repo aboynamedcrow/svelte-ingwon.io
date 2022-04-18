@@ -88,7 +88,7 @@
 			)}
 
 				<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf" frameborder="0" >
-    				<embed src="https://drive.google.com/file/d/1beUhXBhvxfj8fEXvHXVughxOnzv6nBrx/view?usp=sharing"/> 
+    				<embed src="https://drive.google.com/file/d/1beUhXBhvxfj8fEXvHXVughxOnzv6nBrx/preview?usp=sharing"/> 
 				</object>
 				
 	  		{/if}
