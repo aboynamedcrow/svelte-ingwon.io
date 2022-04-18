@@ -164,5 +164,5 @@ const card_values = readable([
     watermark: ""
   }
 ]);
-var psycho_svelte_svelte_type_style_lang = "";
+var Psycho_svelte_svelte_type_style_lang = "";
 var Header_svelte_svelte_type_style_lang = "";

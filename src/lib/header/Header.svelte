@@ -1,6 +1,7 @@
 <script lang="ts">
 
-import Psycho from '$lib/header/psycho.svelte';
+import Psycho from '$lib/psycho/Psycho.svelte';
+
 	
 </script>
 

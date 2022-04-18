@@ -21,7 +21,7 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_1e0e4ae3 = require("../../chunks/index-1e0e4ae3.js");
-var import_Header_svelte_svelte_type_style_lang_e3e77909 = require("../../chunks/Header.svelte_svelte_type_style_lang-e3e77909.js");
+var import_Header_svelte_svelte_type_style_lang_91de1de2 = require("../../chunks/Header.svelte_svelte_type_style_lang-91de1de2.js");
 const getStores = () => {
   const stores = (0, import_index_1e0e4ae3.g)("__svelte__");
   return {
@@ -65,32 +65,32 @@ const Psycho = (0, import_index_1e0e4ae3.c)(($$result, $$props, $$bindings, slot
   let $whose_card, $$unsubscribe_whose_card;
   let $site_card_mapping, $$unsubscribe_site_card_mapping;
   let $page, $$unsubscribe_page;
-  $$unsubscribe_card_values = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.c, (value) => $card_values = value);
-  $$unsubscribe_watermark = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.w, (value) => $watermark = value);
-  $$unsubscribe_murders_and_executions = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.m, (value) => $murders_and_executions = value);
-  $$unsubscribe_bottom_info = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.b, (value) => $bottom_info = value);
-  $$unsubscribe_phone_number = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.p, (value) => $phone_number = value);
-  $$unsubscribe_title = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.t, (value) => $title = value);
-  $$unsubscribe_company = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.a, (value) => $company = value);
-  $$unsubscribe_last_name = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.l, (value) => $last_name = value);
-  $$unsubscribe_first_name = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.f, (value) => $first_name = value);
-  $$unsubscribe_whose_card = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.d, (value) => $whose_card = value);
-  $$unsubscribe_site_card_mapping = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_e3e77909.s, (value) => $site_card_mapping = value);
+  $$unsubscribe_card_values = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.c, (value) => $card_values = value);
+  $$unsubscribe_watermark = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.w, (value) => $watermark = value);
+  $$unsubscribe_murders_and_executions = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.m, (value) => $murders_and_executions = value);
+  $$unsubscribe_bottom_info = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.b, (value) => $bottom_info = value);
+  $$unsubscribe_phone_number = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.p, (value) => $phone_number = value);
+  $$unsubscribe_title = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.t, (value) => $title = value);
+  $$unsubscribe_company = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.a, (value) => $company = value);
+  $$unsubscribe_last_name = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.l, (value) => $last_name = value);
+  $$unsubscribe_first_name = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.f, (value) => $first_name = value);
+  $$unsubscribe_whose_card = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.d, (value) => $whose_card = value);
+  $$unsubscribe_site_card_mapping = (0, import_index_1e0e4ae3.a)(import_Header_svelte_svelte_type_style_lang_91de1de2.s, (value) => $site_card_mapping = value);
   $$unsubscribe_page = (0, import_index_1e0e4ae3.a)(page, (value) => $page = value);
   for (let i = 0; i < $site_card_mapping.length; i++) {
     if ($page.url.pathname == ((_a = $site_card_mapping[i]) == null ? void 0 : _a.section)) {
-      (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.d, $whose_card = $site_card_mapping[i].whose_card, $whose_card);
+      (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.d, $whose_card = $site_card_mapping[i].whose_card, $whose_card);
       console.log("whose card value is now: " + $whose_card);
       for (let j = 0; j < $card_values.length; j++) {
         if ($card_values[j].whose_card == $whose_card) {
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.f, $first_name = $card_values[j].first_name, $first_name);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.l, $last_name = $card_values[j].last_name, $last_name);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.a, $company = $card_values[j].company, $company);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.t, $title = $card_values[j].title, $title);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.p, $phone_number = $card_values[j].phone_number, $phone_number);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.b, $bottom_info = $card_values[j].bottom_info, $bottom_info);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.m, $murders_and_executions = $card_values[j].murders_and_executions, $murders_and_executions);
-          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_e3e77909.w, $watermark = $card_values[j].watermark, $watermark);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.f, $first_name = $card_values[j].first_name, $first_name);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.l, $last_name = $card_values[j].last_name, $last_name);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.a, $company = $card_values[j].company, $company);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.t, $title = $card_values[j].title, $title);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.p, $phone_number = $card_values[j].phone_number, $phone_number);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.b, $bottom_info = $card_values[j].bottom_info, $bottom_info);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.m, $murders_and_executions = $card_values[j].murders_and_executions, $murders_and_executions);
+          (0, import_index_1e0e4ae3.b)(import_Header_svelte_svelte_type_style_lang_91de1de2.w, $watermark = $card_values[j].watermark, $watermark);
           break;
         }
       }
@@ -135,7 +135,7 @@ const Header = (0, import_index_1e0e4ae3.c)(($$result, $$props, $$bindings, slot
 });
 const defaultValue = "";
 const initialValue = defaultValue;
-const theme = (0, import_Header_svelte_svelte_type_style_lang_e3e77909.e)(initialValue);
+const theme = (0, import_Header_svelte_svelte_type_style_lang_91de1de2.e)(initialValue);
 theme.subscribe((value) => {
 });
 var PowerSwitch_svelte_svelte_type_style_lang = "";

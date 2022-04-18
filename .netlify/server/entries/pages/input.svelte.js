@@ -25,7 +25,7 @@ __export(stdin_exports, {
 module.exports = __toCommonJS(stdin_exports);
 var import_index_1e0e4ae3 = require("../../chunks/index-1e0e4ae3.js");
 var import_env_14926626 = require("../../chunks/env-14926626.js");
-var import_Header_svelte_svelte_type_style_lang_e3e77909 = require("../../chunks/Header.svelte_svelte_type_style_lang-e3e77909.js");
+var import_Header_svelte_svelte_type_style_lang_91de1de2 = require("../../chunks/Header.svelte_svelte_type_style_lang-91de1de2.js");
 var input_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".container-content.svelte-19hpk57{width:100%;max-width:var(--column-width);margin:var(--column-margin-top) auto 0 auto;background-color:var(--background-color);height:100vh}h1.svelte-19hpk57{position:sticky;top:60px;padding-bottom:0.5em;opacity:1;width:100%;background-color:var(--background-color);transition:background-color 1s ease}h2.svelte-19hpk57{position:sticky;top:100px;padding-bottom:0.5em;text-align:center;opacity:1;width:100%;background-color:var(--background-color);transition:background-color 1s ease}",

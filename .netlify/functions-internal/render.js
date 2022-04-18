@@ -5,7 +5,7 @@ exports.handler = init({
 	assets: new Set([".DS_Store","Ingwon Chae Resume 2022.03.pdf","about.txt","android-chrome-192x192.png","android-chrome-512x512.png","apple-touch-icon.png","drive.jpg","favicon-16x16.png","favicon-32x32.png","favicon.ico","fudturism.jpg","it me.jpg","nazareth.jpg","robots.txt","site.webmanifest","standing.jpg","svelte-welcome.webp"]),
 	mimeTypes: {".pdf":"application/pdf",".txt":"text/plain",".png":"image/png",".jpg":"image/jpeg",".ico":"image/vnd.microsoft.icon",".webmanifest":"application/manifest+json",".webp":"image/webp"},
 	_: {
-		entry: {"file":"start-6545b8ba.js","js":["start-6545b8ba.js","chunks/index-513e564b.js","chunks/index-bf4de514.js","chunks/singletons-d1fb5791.js"],"css":[]},
+		entry: {"file":"start-da4d11a0.js","js":["start-da4d11a0.js","chunks/index-513e564b.js","chunks/index-bf4de514.js","chunks/singletons-d1fb5791.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
