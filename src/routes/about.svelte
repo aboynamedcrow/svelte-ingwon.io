@@ -31,7 +31,7 @@
 		<br>
 		<div class="about">
 			<picture>
-				<img src="standing.jpg" alt="it me" />
+				<img src="static/standing.jpg" alt="it me" />
 			</picture>
 		</div>
 		<br>
