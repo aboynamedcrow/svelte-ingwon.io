@@ -112,7 +112,7 @@
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
 		background-color: var(--background-color);
-		margin-bottom: 50vh;
+		margin-bottom: 100vh;
 	}
 
 	input, button {
