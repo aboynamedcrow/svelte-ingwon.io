@@ -1,8 +1,5 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
-import Counter from '$lib/Counter.svelte';
-import Header from '$lib/header/Header.svelte';
-import About from './about.svelte';
 
 
 

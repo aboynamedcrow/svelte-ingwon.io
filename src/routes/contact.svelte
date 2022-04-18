@@ -1,8 +1,6 @@
 <script context="module">
 	import { browser, dev } from '$app/env';
-import Counter from '$lib/Counter.svelte';
-import Header from '$lib/header/Header.svelte';
-import About from './about.svelte';
+
 
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
