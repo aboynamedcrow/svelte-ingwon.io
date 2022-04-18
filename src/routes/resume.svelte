@@ -86,9 +86,11 @@
 			|| hash(password) === -990662784
 			|| hash(password) === -1505760416
 			)}
-				<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf">
-				<a href="Ingwon Chae Resume 2022.03.pdf">click here to download</a>
-			</object>		
+
+				<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf" frameborder="0" >
+    				<embed src="https://drive.google.com/file/d/1beUhXBhvxfj8fEXvHXVughxOnzv6nBrx/view?usp=sharing"/> 
+				</object>
+				
 	  		{/if}
 		{/key}
 	</div>
@@ -106,6 +108,11 @@
 		width: 100%;
 		height: 130vh;
 		text-align: center;
+	}
+
+	embed{
+		width: 100%;
+		height: 130vh;
 	}
 
 
