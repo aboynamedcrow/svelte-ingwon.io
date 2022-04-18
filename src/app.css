@@ -1,0 +1,154 @@
+@import '@fontsource/inter';
+@import '@fontsource/fira-code';
+@import '@fontsource/eb-garamond';
+@import '@fontsource/old-standard-tt';
+@import '@fontsource/roboto';
+@import '@fontsource/alegreya-sc';
+@font-face {
+	font-family: 'Fira Code';
+	size-adjust: 100%;
+	src: '@fontsource/fira-code';
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	transition: background-color 1s ease
+
+}
+
+:root {
+	font-family: 'Inter','Fira Code','EB Garamond','Old Standard TT','Roboto','Alegreya SC';
+	-webkit-tap-highlight-color: transparent;
+	--font: 'Inter';
+	--font-size: 10px;
+	--pure-white: #ffffff;
+	--primary-color: #b9c6d2;
+
+	--secondary-color: #d0dde9;
+	--tertiary-color: #edf0f8;
+	--background-color: #ffffff;
+	--accent-color: rgba(34, 34, 34, 0.25);
+	--heading-color: rgba(0, 0, 0, 0.7);
+	--text-color: #222;
+	--background-without-opacity: rgba(255, 255, 255, 0.7);
+	--column-width: 70rem;
+	--column-margin-top: 4rem;
+
+}
+
+html{
+	font-size: var(--font-size);
+	letter-spacing: normal;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+}
+
+:global(body) {
+	min-height: 100vh;
+	font-size: 10px;
+	font-family: var(--font);
+    color: var(--text-color);
+	background-color: var(--background-color);
+	/*background: linear-gradient(
+		180deg,
+		var(--primary-color) 0%,
+		var(--secondary-color) 10.45%,
+		var(--tertiary-color) 41.35%
+	);*/
+}
+
+
+body::before {
+	content: '';
+	width: 80vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 10vw;
+	z-index: -1;
+	background: radial-gradient(
+		50% 50% at 50% 50%,
+		var(--background-color) 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	opacity: 0.05;
+	
+}
+
+#svelte {
+	min-height: 100vh;
+	/*display: flex;*/
+	flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+p {
+	font-weight: 400;
+	color: var(--text-color);
+	font-family: var(--font);
+	transition: color 2s linear;
+}
+
+p {
+	line-height: 1.5;
+	font-size: 1.8em;
+}
+
+a {
+	font-size: 1em;
+	color: var(--text-color);
+	font-family: var(--font);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--accent-color);
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.4em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+pre {
+	font-size: 1.5em;
+	font-family: var(--font);
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+	padding: 0.5em;
+	overflow-x: auto;
+	color: var(--text-color);
+}
+
+input,
+button {
+	color: var(--text-color);
+	font-family: var(--font);
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+@media (min-width: 720px) {
+	h1 {
+		font-size: 3em;
+	}
+}
