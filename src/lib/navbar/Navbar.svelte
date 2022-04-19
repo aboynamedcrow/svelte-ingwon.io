@@ -135,7 +135,7 @@
 	opacity: 0;
 	height: 0;
 	overflow: hidden;
-	transition: height 1s opacity 1s ease-out;
+	/*transition: height 1s opacity 1s ease-out;*/
   }
 
   .dropdown-content a {
@@ -160,7 +160,7 @@
   height: 1 !important;
 	opacity: 0.9 !important;
 	overflow:visible !important;
-	transition: height 1s 0s opacity 1s ease-out;
+	/*transition: height 1s 0s opacity 1s ease-out;*/
   }
 
   a:hover {
