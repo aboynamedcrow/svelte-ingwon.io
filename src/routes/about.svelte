@@ -37,7 +37,7 @@
 		</div>
 		<br>
 		<p id="center">
-			it me!
+			it me
 		  </p>
 		<br>
 		<br>
