@@ -15,7 +15,7 @@
 	margin: 0;
 	padding: 0;
 	transition: background-color 1s ease;
-	overscroll-behavior-y: none;
+	
 
 }
 
@@ -45,6 +45,10 @@ html{
 	text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 	-moz-text-size-adjust: none;
+	height: 100vh;
+	margin-bottom: 0;
+	
+	height: 100%;
 	
 	
 }
@@ -55,6 +59,9 @@ html{
 	font-family: var(--font);
     color: var(--text-color);
 	background-color: var(--background-color);
+	margin-bottom: 0;
+	overflow: auto;
+	height: 100%;
 	
 	
 	/*background: linear-gradient(
@@ -80,6 +87,9 @@ body::before {
 		rgba(255, 255, 255, 0) 100%
 	);
 	opacity: 0.05;
+	margin-bottom: 0;
+	overflow: auto;
+	height: 100%;
 	
 }
 

@@ -26,10 +26,10 @@
 		flex: 1;
 		text-align: center;
 		width: 100%;
-		height: 100vh;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
-		margin-bottom: 100vh;
+		padding-bottom: 100vh;
+		margin-bottom: 0;
 	}
 
 
