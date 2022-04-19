@@ -74,10 +74,10 @@ import { readable,writable } from 'svelte/store';
         first_name: 'Ingwon',
         last_name: 'Chae',
         company: 'Gringotts',
-        title: 'Builder\n& Occasional Troll',
+        title: 'Builder',
         phone_number: '+1 617 758 9124',
         bottom_info: '7 Diagon Alley, London WC2N 4HP, United Kingdom',
-        murders_and_executions: 'Wizarding Bank',
+        murders_and_executions: '',
         watermark: ''}
 
     ]);

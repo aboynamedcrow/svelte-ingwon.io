@@ -12,14 +12,7 @@
 		welcome. click my name to navigate
 	</h2>
 	<br>
-	<br><br>
-
-	<div class="welcome">
-		<picture>
-			<img src= "static/images/drive.jpeg" alt="welcome" />
-			
-		</picture>
-	</div>
+	
 
 	
 </div>
@@ -40,11 +33,7 @@
 	}
 
 
-	img {
-		width: 100%;
-		height: auto;
-		align-items: center;
-	}
+	
 
 	
 

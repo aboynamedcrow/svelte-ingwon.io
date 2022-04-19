@@ -24,7 +24,7 @@
 				|| hash(password) === -990662784
 				|| hash(password) === -1505760416)) {
 		} else {
-			alert("For access, please contact Ingwon.\nAlternatively, here's a clue:\n\n'Goodness without knowledge is weak and feeble,\nYet knowledge without goodness is dangerous.\nBoth united form the noblest character\nAnd lay the surest foundation of usefulness to mankind.'\n\nWhat do Patrick Bateman and Mark Zuckerberg have in common?");
+			alert("For access, please contact Ingwon.\n\nAlternatively, here's a clue:\n\nWhat do Patrick Bateman and Mark Zuckerberg have in common?");
 		}
 	}
 
@@ -51,7 +51,8 @@
 	
 	<div class="content"
 		id = "resume">
-			<h1>download resumé</h1>
+			<h1>resumé</h1>
+			<br><br>
 			{#if (clicked == true &&
 				(hash(password) === -1289476913
 				|| hash(password) === 2089357551
@@ -60,11 +61,12 @@
 				|| hash(password) === -990662784
 				|| hash(password) === -1505760416
 				))}
+				
 			<h3>last updated: March 2022</h3>
 			{/if}
-			<br>
+			
 	</div>
-		
+	<br><br>	
 	<div class="content"
 		id = "password">
 		<div>

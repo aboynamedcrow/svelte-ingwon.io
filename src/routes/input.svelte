@@ -33,104 +33,104 @@
 		<br>
 	<div class="content"
 	id = "writing">
-		<br>
+	<br><br><br><br><br><br>
 		<h1>Writing</h1>
-		<br>
+		<br><br>
 		<h2>Short Stories</h2>
-		<br>
+		<br><br>
 			<h3>
 				<a href="https://wordsunlimited.typepad.com/files/bullet.pdf" target="_blank">Bullet in the Brain - Tobias Wolff</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				<a href="https://www.youmightfindyourself.com/post/22131227213/on-seeing-the-100-perfect-girl-one-beautiful" target="_blank">
 				On Seeing the 100% Perfect Girl One Beautiful April Morning - Haruki Murakami</a>
 			</h3>
-		<br>
+			<br><br>
 			<h3>
 				<a href="https://americanliterature.com/author/virginia-woolf/short-story/a-haunted-house" target="_blank">
 				A Haunted House - Virginia Woolf</a>
 			</h3>
-		<br>
+			<br><br>
 			<h3>
 				Under Construction...
 			</h3>
-		<br>
+			<br><br><br><br>
 		<h2>Poems</h2>
-		<br>
+		<br><br>
 			<h3>Under Construction...</h3>
-		<br>
+		<br><br><br><br>
 		<h2>Essays</h2>
-		<br>
+		<br><br>
 			<h3>
 				<a href="http://writing.upenn.edu/library/Sontag-Susan-Photography.pdf" target="_blank">
 				On Photography - Susan Sontag
 				</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				<a href="http://s.spachman.tripod.com/Woolf/streethaunting.htm" target="_blank">
 			Street Haunting: A London Adventure (1930) - Virginia Woolf
 				</a>
 			</h3>
-		<br>         
+		<br><br>         
 			<h3>
 				<a href="http://art.arts.usf.edu/content/articlefiles/2330-Excerpt%20from%20Remembrance%20of%20Things%20Past%20by%20Marcel%20Proust.pdf" target="_blank">
 				The One About the Madeleine - Marcel Proust
 				</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				Under Construction..
 		  	</h3>
-		<br>
+		<br><br>
 	</div> <!--closes class: content id: writing-->
 		<br>
 		<div class="content"
 		id = "films">
-			<br>
+			<br><br><br><br>
 			<h1>Films</h1>
-			<br>
+			<br><br>
 			<h2>Richard Linklater</h2>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Dazed and Confused</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Before Sunrise</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Before Sunset</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Before Midnight</a>
 				</h3>
-			<br>
+			<br><br><br><br>
 			<h2>Lee Chang Dong</h2>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Poetry</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Peppermint Candy</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Burning</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Secret Sunshine</a>
 				</h3>
-			<br>
+			<br><br>
 				<h3>
 					<a href=/ target="_blank">Under Construction....</a>
 				</h3>
-			<br>
+			<br><br>
 		</div> <!--closes class: content id: film-->
 
 	

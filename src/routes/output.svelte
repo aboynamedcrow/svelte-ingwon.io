@@ -37,39 +37,40 @@
 		<br>
 	<div class="content"
 	id = "selected-writing">
-		<br>
-		<h1>Selcted Writing</h1>
-		<br>
+		<br><br><br><br><br><br>
+		<h1>Selected Writing</h1>
+		<br><br><br><br>
 		<h2>Essays</h2>
-		<br>
+		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/for-father-e5197b764d95" target="_blank">
 					For Father</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/for-mother-5dda20e13e6c" target="_blank">
 					For Mother</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/requiem-for-notre-dame-4db44e70ba8a" target="_blank">
 					Requiem For Notre Dame</a>
 			</h3>
-		<br>
+		<br><br>
 			<h3>
 				Under Construction...
 			</h3>
-		<br>
+		<br><br><br><br>
 		<h2>Poems</h2>
-		<br>
+		<br><br>
 			<h3>Under Construction...</h3>
-		<br>
+		<br><br><br><br>
 		<h2>Short Stories</h2>
+		<br><br>
 			<h3>
 				Under Construction..
 		  	</h3>
-		<br>
+		<br><br><br><br><br>
 	</div> <!--closes class: content id: selected writing-->
 		<br>
 		<div class="content"
@@ -77,8 +78,31 @@
 			<br>
 			<h1>Selected Photos</h1>
 			<br>
-			<h2>.</h2>
+			<br><br>
+
+			<div class="photo">
+				<picture>
+					<img src= "static/images/drive.jpeg" alt="roadtrip" />
+					
+				</picture>
+			</div>
+			<br><br><br><br><br><br>
+			<div class="photo">
+				<picture>
+					<img src= "static/images/nazareth.jpeg" alt="nazareth" />
+					
+				</picture>
+			</div>
+			<br><br><br><br><br><br>
+			<div class="photo">
+				<picture>
+					<img src= "static/images/fudturism.jpeg" alt="fudturism" />
+					
+				</picture>
+			</div>
+
 			<br>
+
 				<h3>
 					Under Construction...
 				</h3>
@@ -123,5 +147,10 @@
 		transition: background-color 1s ease;
 	}
 
+	img {
+		width: 100%;
+		height: auto;
+		align-items: center;
+	}
 
 </style>
