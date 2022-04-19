@@ -49,6 +49,7 @@ html{
 	margin-bottom: 0;
 	touch-action: pan-down;
 	height: 100%;
+	overscroll-behavior: contain;
 	
 	
 }
@@ -62,6 +63,7 @@ html{
 	margin-bottom: 0;
 	overflow: auto;
 	height: 100%;
+	overscroll-behavior: contain;
 	
 	
 	/*background: linear-gradient(
@@ -90,6 +92,7 @@ body::before {
 	margin-bottom: 0;
 	overflow: auto;
 	height: 100%;
+	overscroll-behavior: contain;
 	
 }
 
