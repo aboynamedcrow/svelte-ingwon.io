@@ -90,7 +90,7 @@
 			)}
 
 				<!--<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf" frameborder="0" width="100%" height="1000px" style="padding: 20px;">-->
-    				<embed src="https://drive.google.com/file/d/1guQPAwPPiOJpPeoAotPccwKub40iT7Iq/preview?usp=sharing"/> 
+    				<embed src="https://drive.google.com/file/d/1cEYmkOZMvlSnXvvFC5MRGZ-egMTa5HvO/preview?usp=sharing"/> 
 				<!--</object>-->
 				
 	  		{/if}
