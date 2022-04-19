@@ -87,7 +87,6 @@
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1;
-	z-index: 999;
     justify-content: right;
     margin-right: 0;
     padding-right: 0;
@@ -99,7 +98,6 @@
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1;
-	z-index: 998;
     border: none;
     font-family: var(--font);
     padding-left: 18px;
@@ -128,13 +126,13 @@
     position: absolute;
     background-color: var(--background-color);
     color: var(--text-color);
-	font-family: var(--font);
+	  font-family: var(--font);
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-	opacity: 0;
-	height: 0;
-	overflow: hidden;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 	/*transition: height 1s opacity 1s ease-out;*/
   }
 
@@ -144,12 +142,12 @@
     text-decoration: none;
     display: block;
     font-size: 2.5rem;
-	text-indent: 1.2rem;
+	  text-indent: 1.2rem;
     padding-left: 1.5rem;
-	padding-right: 3rem;
-	padding-bottom: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
     margin-left: 2rem;
-	margin-right: 1.5rem;
+	  margin-right: 1.5rem;
   }
 
 
@@ -157,10 +155,10 @@
 
 
   :global(.show) {
-  height: 1 !important;
-	opacity: 0.9 !important;
-	overflow:visible !important;
-	/*transition: height 1s 0s opacity 1s ease-out;*/
+    height: 1 !important;
+    opacity: 0.9 !important;
+    overflow:visible !important;
+    /*transition: height 1s 0s opacity 1s ease-out;*/
   }
 
   a:hover {
