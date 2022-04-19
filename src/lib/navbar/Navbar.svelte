@@ -27,7 +27,7 @@
 </script>
 
 <!-- Close the dropdown menu if the user clicks outside of it-->
-<!--<svelte:window on:click = {collapse}/>-->
+<svelte:window on:click = {collapse}/>
 
 <header class = "navbar">
 	
