@@ -5,7 +5,7 @@
 
 	function handleClick() {
 
-    document.getElementById("handleDropdown").classList.toggle("show");
+  document.getElementById("handleDropdown").classList.toggle("show");
 	console.log(document.getElementById("handleDropdown").classList);
 	console.log(this.classList);
 
@@ -83,7 +83,7 @@
 
   .dropdown {
     top: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: var(--background-color);
     color: var(--text-color);
     opacity: 1;
@@ -116,9 +116,6 @@
 	
   }
 
-  /*.dropdown :hover {
-	color: var(--accent-color);
-  }*/
 
 
    .dropdown-content {
@@ -152,7 +149,7 @@
 
 
   :global(.show) {
-    display:block;
+    display:block !important;
     opacity: 0.9 !important;
     overflow:visible !important;
     /*transition: height 1s 0s opacity 1s ease-out;*/
