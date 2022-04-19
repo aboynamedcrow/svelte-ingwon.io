@@ -110,6 +110,7 @@
 
 <style>
 
+
     * {
     --patrick-color: #e3dac9;
     --patrick-font: 'EB Garamond';

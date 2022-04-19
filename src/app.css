@@ -11,8 +11,10 @@
 }
 @font-face {
 	font-family: 'Lumos';
+	font-style: normal;
+	font-weight: 400;
 	size-adjust: 100%;
-	src: url('/static/lumos.ttf') format('ttf');
+	src: url('static/fonts/lumos.ttf') format('truetype');
 }
 
 

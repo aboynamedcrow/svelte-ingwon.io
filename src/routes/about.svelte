@@ -32,7 +32,7 @@
 		<br>
 		<div class="about">
 			<picture>
-				<img src="static/images/standing.jpeg" alt="it-me" />
+				<img src='static/images/standing.jpeg' alt="it-me" />
 			</picture>
 		</div>
 		<br>
