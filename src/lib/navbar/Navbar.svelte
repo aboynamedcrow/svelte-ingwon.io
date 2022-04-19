@@ -122,7 +122,7 @@
 
 
    .dropdown-content {
-    display: block;
+    display: none;
     position: absolute;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -130,9 +130,6 @@
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
 	/*transition: height 1s opacity 1s ease-out;*/
   }
 
@@ -155,7 +152,7 @@
 
 
   :global(.show) {
-    height: 1 !important;
+    display:block;
     opacity: 0.9 !important;
     overflow:visible !important;
     /*transition: height 1s 0s opacity 1s ease-out;*/
