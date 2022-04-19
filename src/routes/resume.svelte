@@ -24,7 +24,7 @@
 				|| hash(password) === -990662784
 				|| hash(password) === -1505760416)) {
 		} else {
-			alert("For access, please contact Ingwon.\n\nAlternatively, here's a clue:\n\nWhat do Patrick Bateman and Mark Zuckerberg have in common?");
+			alert("For access, please contact Ingwon.");
 		}
 	}
 
