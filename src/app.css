@@ -9,6 +9,12 @@
 	size-adjust: 100%;
 	src: '@fontsource/fira-code';
 }
+@font-face {
+	font-family: 'Lumos';
+	size-adjust: 100%;
+	src: url('/static/lumos.ttf') format('ttf');
+}
+
 
 
 *{
