@@ -135,6 +135,7 @@
         color: inherit;
         background-color: inherit;
         padding-top: 5px;
+        font-size: 16px;
     }
 
     .business-card {
