@@ -14,7 +14,7 @@
 	font-style: normal;
 	font-weight: 400;
 	size-adjust: 100%;
-	src: url('static/fonts/lumos.ttf') format('truetype');
+	src: url('/fonts/lumos.ttf') format('truetype');
 }
 
 

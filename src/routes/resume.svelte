@@ -136,6 +136,10 @@
 		padding: 0.5em;
 	}
 
+	input:focus {
+		outline: none;
+	}
+
 	button {
 		font-family: var(--font);
 		background-color: rgb(205, 204, 204);
