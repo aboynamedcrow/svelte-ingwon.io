@@ -47,7 +47,7 @@ html{
 	-moz-text-size-adjust: none;
 	height: 100vh;
 	margin-bottom: 0;
-	
+	touch-action: pan-down;
 	height: 100%;
 	
 	
