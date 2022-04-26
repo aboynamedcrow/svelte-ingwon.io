@@ -62,7 +62,7 @@
 				|| hash(password) === -1505760416
 				))}
 				
-			<h3>last updated: March 2022</h3>
+			<h3>last updated: April 2022</h3>
 			{/if}
 			
 	</div>
