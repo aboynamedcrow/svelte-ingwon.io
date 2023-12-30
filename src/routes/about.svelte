@@ -27,7 +27,7 @@
 		<br>
 		<br>
 		<p id="center">
-		  this site was created in april 2022 by Ingwon Chae.
+		  this site was created in april 2022 by ingwon chae.
 		</p>
 		<br>
 		<div class="about">
@@ -37,13 +37,17 @@
 		</div>
 		<br>
 		<p id="center">
-			it me
+			it me, in נָצְרַת|النَّاصِرَة|nazareth, in august 2021
 		  </p>
 		<br>
 		<br>
 		<br>
 		<p>
 		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and jokes.
+		</p>
+		<br>
+		<p>
+		  pay attention as you explore. 
 		</p>
 		<br>
 		<p>
