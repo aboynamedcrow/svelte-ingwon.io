@@ -54,8 +54,18 @@
 			<br><br><br><br>
 		<h2>Poems</h2>
 		<br><br>
-			<h3>under construction...</h3>
-		<br><br><br><br>
+			<h3>
+				<a href="https://www.vanderbilt.edu/olli/class-materials/2017Summer.MindfulnessWk1.pdf" target="_blank">Wild Geese - Mary Oliver</a>
+			</h3>
+		<br><br>
+			<h3>
+				<a href="https://poets.org/poem/will-you" target="_blank">Will You? - Carrie Fountain</a>
+			</h3>
+		<br><br>
+		<h3>
+				<a href="https://www.reddit.com/r/Poetry/comments/fwdn90/poem_go_to_the_limits_of_your_longing_by_rainer/">Go to the Limits of Your Longing - Rainer Maria Rilke</a>
+			</h3>
+			<br><br><br><br>
 		<h2>Essays</h2>
 		<br><br>
 			<h3>
