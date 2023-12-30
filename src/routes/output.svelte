@@ -38,7 +38,7 @@
 	<div class="content"
 	id = "selected-writing">
 		<br><br><br><br><br><br>
-		<h1>Selected Writing</h1>
+		<h1>selected writing</h1>
 		<br><br><br><br>
 		<h2>Essays</h2>
 		<br><br>
@@ -51,24 +51,19 @@
 				<a href="https://medium.com/@ingwon/for-mother-5dda20e13e6c" target="_blank">
 					For Mother</a>
 			</h3>
+		<br><br><br><br>
+		<h2>Poems</h2>
 		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/requiem-for-notre-dame-4db44e70ba8a" target="_blank">
 					Requiem For Notre Dame</a>
 			</h3>
-		<br><br>
-			<h3>
-				Under Construction...
-			</h3>
-		<br><br><br><br>
-		<h2>Poems</h2>
-		<br><br>
-			<h3>Under Construction...</h3>
 		<br><br><br><br>
 		<h2>Short Stories</h2>
 		<br><br>
 			<h3>
-				Under Construction..
+				<a href="https://medium.com/@ingwon/replication-error-46f91c8b576e" target="_blank">
+					Replication Error</a>
 		  	</h3>
 		<br><br><br><br><br>
 	</div> <!--closes class: content id: selected writing-->

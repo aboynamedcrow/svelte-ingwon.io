@@ -24,7 +24,7 @@
 				|| hash(password) === -990662784
 				|| hash(password) === -1505760416)) {
 		} else {
-			alert("For access, please contact Ingwon.");
+			alert("hint: what do patrick bateman and i have in common?");
 		}
 	}
 

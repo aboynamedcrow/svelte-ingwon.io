@@ -4,8 +4,8 @@ import { readable,writable } from 'svelte/store';
         {section: '/about', whose_card: 'patrick-alt-card'},
         {section: '/input', whose_card: 'van-patten-card'},
         {section: '/output', whose_card: 'bryce-card'},
-        {section: '/contact', whose_card: 'allen-card'},
-        {section: '/resume', whose_card: 'ingwon-card'},
+        {section: '/contact', whose_card: 'ingwon-card'},
+        {section: '/resume', whose_card: 'allen-card'},
         {section: '/', whose_card: 'patrick-card'}
     ]);
 
@@ -75,7 +75,7 @@ import { readable,writable } from 'svelte/store';
         last_name: 'Chae',
         company: 'Gringotts',
         title: 'Builder',
-        phone_number: '+1 617 758 9124',
+        phone_number: '617 758 9124',
         bottom_info: '7 Diagon Alley, London WC2N 4HP, United Kingdom',
         murders_and_executions: '',
         watermark: ''}

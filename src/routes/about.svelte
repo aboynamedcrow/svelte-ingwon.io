@@ -27,7 +27,11 @@
 		<br>
 		<br>
 		<p id="center">
-		  this site was created in april 2022 by Ingwon Chae.
+		  this site was created in april 2022 by ingwon chae.
+		</p>
+		<br>
+		<p id="center">
+		  this site was last updated in december 2023.
 		</p>
 		<br>
 		<div class="about">
@@ -37,7 +41,7 @@
 		</div>
 		<br>
 		<p id="center">
-			it me
+			it me, in נָצְרַת aka النَّاصِرَة aka nazareth, in august 2021
 		  </p>
 		<br>
 		<br>

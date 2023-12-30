@@ -30,7 +30,15 @@
 	<div class="content"
 	id = "contact-info">
 		<br>
-		<h2>&lbrace;firstName&rbrace;@gmail.com</h2>
+		<h2><input type="checkbox" id="personalEmail-checkbox"/>
+			<label for="personalEmail-checkbox" id="personalEmail">personal email</label>
+		</h2>
+		<br>
+		<h2><input type="checkbox" id="workEmail-checkbox"/>
+			<label for="workEmail-checkbox" id="workEmail">work email</label>
+		</h2>
+		<br>
+		<h2><a href="https://ingwon.substack.com" target="_blank">substack</a></h2>
 		<br>
 		<h2><a href="https://linkedin.com/in/ingwon" target="_blank">linkedin</a></h2>
 		<br>
@@ -38,15 +46,13 @@
 			<label for="onlyFans-checkbox" id="onlyFans">onlyFans</label>
 		</h2>
 		<br>
-		<h2><a href="https://github.com/aboynamedcrow" target="_blank">github</a></h2>
-		<br>
 		<h2><a href="https://instagram.com/ingwonstagram" target="_blank">insta</a></h2>
 		<br>
-		<h2><a href="https://twitter.com/ingwon" target="_blank">twitter</a></h2>
-		<br>
-		<h2><a href="https://medium.com/@ingwon" target="_blank">medium</a></h2>
+		<h2><a href="https://tiktok.com/@aboynamedcrow" target="_blank">tiktok</a></h2>
 		<br>
 		<h2><a href="https://letterboxd.com/aboynamedcrow/" target="_blank">letterboxd</a></h2>
+		<br>
+		<h2><a href="https://twitter.com/ingwon" target="_blank">twitter</a></h2>
 		<br>
 	</div> <!--closes class: content id: contact-info-->
 		<br>
@@ -121,6 +127,81 @@
 		transition: background-color 1s ease;
 		cursor: pointer;
 	}
+
+	#personalEmail {
+		display: block;
+		z-index: 1;
+		cursor: pointer;
+  	}
+
+	  #personalEmail-checkbox :hover input {
+		color: var(--accent-color);
+  	}
+
+	  #personalEmail :hover label {
+		color: var(--accent-color);
+  	}
+
+	  #personalEmail :hover h2 {
+		color: var(--accent-color);
+  	}
+
+  	#personalEmail-checkbox {
+    	display: none;
+  	}
+
+	#personalEmail-checkbox:checked + #personalEmail:after {
+		content: "{{myFirstName}}@gmail.com";
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		display: block;
+		z-index: 1;
+		overflow: hidden;
+		background-color: var(--background-color);
+		color: var(--text-color);
+		transition: background-color 1s ease;
+		cursor: pointer;
+	}
+
+	#workEmail {
+		display: block;
+		z-index: 1;
+		cursor: pointer;
+  	}
+
+	  #workEmail-checkbox :hover input {
+		color: var(--accent-color);
+  	}
+
+	  #workEmail :hover label {
+		color: var(--accent-color);
+  	}
+
+	  #workEmail :hover h2 {
+		color: var(--accent-color);
+  	}
+
+  	#workEmail-checkbox {
+    	display: none;
+  	}
+
+	#workEmail-checkbox:checked + #workEmail:after {
+		content: "{{myFirstName}}@glencoco.io";
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		display: block;
+		z-index: 1;
+		overflow: hidden;
+		background-color: var(--background-color);
+		color: var(--text-color);
+		transition: background-color 1s ease;
+		cursor: pointer;
+	}
+
 
 
 	</style>
