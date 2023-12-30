@@ -30,10 +30,6 @@
 		  this site was created in april 2022 by ingwon chae.
 		</p>
 		<br>
-		<p id="center">
-		  this site was last updated in december 2023.
-		</p>
-		<br>
 		<div class="about">
 			<picture>
 				<img src='static/images/standing.jpeg' alt="it-me" />
@@ -41,13 +37,17 @@
 		</div>
 		<br>
 		<p id="center">
-			it me, in נָצְרַת aka النَّاصِرَة aka nazareth, in august 2021
+			it me, in נָצְרַת|النَّاصِرَة|nazareth, in august 2021
 		  </p>
 		<br>
 		<br>
 		<br>
 		<p>
 		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and jokes.
+		</p>
+		<br>
+		<p>
+		  pay attention as you explore. 
 		</p>
 		<br>
 		<p>

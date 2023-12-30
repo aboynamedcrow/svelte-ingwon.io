@@ -114,7 +114,7 @@
   	}
 
 	#onlyFans-checkbox:checked + #onlyFans:after {
-		content: "Wtf u actually clicked? relax..";
+		content: "w u actually clicked? relax..";
 		position: relative;
 		top: 0;
 		left: 0;

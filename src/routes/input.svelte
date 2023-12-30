@@ -34,9 +34,9 @@
 	<div class="content"
 	id = "writing">
 	<br><br><br><br><br><br>
-		<h1>Writing</h1>
+		<h1>writing</h1>
 		<br><br>
-		<h2>Short Stories</h2>
+		<h2>short stories</h2>
 		<br><br>
 			<h3>
 				<a href="https://wordsunlimited.typepad.com/files/bullet.pdf" target="_blank">Bullet in the Brain - Tobias Wolff</a>
@@ -51,14 +51,10 @@
 				<a href="https://americanliterature.com/author/virginia-woolf/short-story/a-haunted-house" target="_blank">
 				A Haunted House - Virginia Woolf</a>
 			</h3>
-			<br><br>
-			<h3>
-				Under Construction...
-			</h3>
 			<br><br><br><br>
 		<h2>Poems</h2>
 		<br><br>
-			<h3>Under Construction...</h3>
+			<h3>under construction...</h3>
 		<br><br><br><br>
 		<h2>Essays</h2>
 		<br><br>
@@ -80,16 +76,12 @@
 				</a>
 			</h3>
 		<br><br>
-			<h3>
-				Under Construction..
-		  	</h3>
-		<br><br>
 	</div> <!--closes class: content id: writing-->
 		<br>
 		<div class="content"
 		id = "films">
 			<br><br><br><br>
-			<h1>Films</h1>
+			<h1>films</h1>
 			<br><br>
 			<h2>Richard Linklater</h2>
 			<br><br>
@@ -125,10 +117,6 @@
 			<br><br>
 				<h3>
 					<a href=/ target="_blank">Secret Sunshine</a>
-				</h3>
-			<br><br>
-				<h3>
-					<a href=/ target="_blank">Under Construction....</a>
 				</h3>
 			<br><br>
 		</div> <!--closes class: content id: film-->

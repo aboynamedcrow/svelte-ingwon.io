@@ -40,7 +40,7 @@
 		<br><br><br><br><br><br>
 		<h1>selected writing</h1>
 		<br><br><br><br>
-		<h2>Essays</h2>
+		<h2>essays</h2>
 		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/for-father-e5197b764d95" target="_blank">
@@ -52,14 +52,14 @@
 					For Mother</a>
 			</h3>
 		<br><br><br><br>
-		<h2>Poems</h2>
+		<h2>poems</h2>
 		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/requiem-for-notre-dame-4db44e70ba8a" target="_blank">
 					Requiem For Notre Dame</a>
 			</h3>
 		<br><br><br><br>
-		<h2>Short Stories</h2>
+		<h2>short stories</h2>
 		<br><br>
 			<h3>
 				<a href="https://medium.com/@ingwon/replication-error-46f91c8b576e" target="_blank">
@@ -71,7 +71,7 @@
 		<div class="content"
 		id = "selected-photos">
 			<br>
-			<h1>Selected Photos</h1>
+			<h1>selected photos</h1>
 			<br>
 			<br><br>
 
@@ -96,13 +96,6 @@
 				</picture>
 			</div>
 
-			<br>
-
-				<h3>
-					Under Construction...
-				</h3>
-			<br>
-			<h2>.</h2>
 		</div> <!--closes class: content id: selected photos-->
 
 	
