@@ -37,7 +37,7 @@
 		</div>
 		<br>
 		<p id="center">
-			it me, in נָצְרַת|النَّاصِرَة|nazareth, in august 2021
+			it me, in נָצְרַת|النَّاصِرَة|nazareth, august 2021
 		  </p>
 		<br>
 		<br>
