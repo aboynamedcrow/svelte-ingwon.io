@@ -62,7 +62,7 @@
 				|| hash(password) === -1505760416
 				))}
 				
-			<h3>last updated: April 2022</h3>
+			<h3>last updated: December 2023</h3>
 			{/if}
 			
 	</div>
@@ -90,7 +90,7 @@
 			)}
 
 				<!--<object title = "pdf" data="Ingwon Chae Resume 2022.03.pdf" type="application/pdf" frameborder="0" width="100%" height="1000px" style="padding: 20px;">-->
-    				<embed src="https://drive.google.com/file/d/1uUL8W6PhkXfFxfcCUnCq5J3JtX5kP09Q/preview?usp=sharing"/> 
+    				<embed src="https://drive.google.com/file/d/1rgA2KsaZlcHRGUrp_STqKm9si055vhWn/view?usp=sharing"/> 
 				<!--</object>-->
 				
 	  		{/if}

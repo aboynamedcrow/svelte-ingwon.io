@@ -39,6 +39,9 @@
 	id = "selected-writing">
 		<br><br><br><br><br><br>
 		<h1>selected writing</h1>
+		<p class="sticky-centered-1">from 2024 i'll be publishing my writing</p>
+		<p class="sticky-centered-2"> to which you can subscribe <a class="pulse-link" href="https://ingwon.substack.com?utm_source=affiliate&utm_medium=landing_page&utm_campaign=ingwon_io&utm_content=output&referrer=ingwon_io" target="_blank">
+			here</a></p>
 		<br><br><br><br>
 		<h2>essays</h2>
 		<br><br>
@@ -120,20 +123,85 @@
 		padding-bottom: 0.5em;
 		opacity: 1;
 		width: 100%;
+		z-index: 1;
 		background-color: var(--background-color);
 		transition: background-color 1s ease;
 	}
 
-	h2 {
+	.sticky-centered-1 {
 		position: sticky;
 		top: 100px;
 		padding-bottom: 0.5em;
 		text-align: center;
 		opacity: 1;
 		width: 100%;
+		z-index: 1;
 		background-color: var(--background-color);
 		transition: background-color 1s ease;
 	}
+
+	.sticky-centered-2 {
+		position: sticky;
+		top: 100px;
+		padding-bottom: 0.5em;
+		text-align: center;
+		opacity: 1;
+		width: 100%;
+		z-index: 1;
+		background-color: var(--background-color);
+		transition: background-color 1s ease;
+	}
+
+	h2 {
+		position: sticky;
+		top: 130px;
+		padding-bottom: 0.5em;
+		text-align: center;
+		opacity: 1;
+		width: 100%;
+		z-index: 1;
+		background-color: var(--background-color);
+		transition: background-color 1s ease;
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
+	}
+
+
+	@keyframes pulse {
+	  0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  49% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  50% {
+		transform: scale(1.05);
+	  }
+	  51% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  75% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  100% {
+		transform: scale(1);
+	  }
+	}
+
 
 	img {
 		width: 100%;
