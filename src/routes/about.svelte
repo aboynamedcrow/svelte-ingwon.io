@@ -43,13 +43,14 @@
 		<br>
 		<br>
 		<p>
+		  pay <a class="pulse-link" href=/about >
+			attention</a> 👀 as you explore. 
+		</p>
+		<br><br><br>
+		<p>
 		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and jokes.
 		</p>
-		<br>
-		<p>
-		  pay attention as you explore. 
-		</p>
-		<br>
+		<br><br><br>
 		<p>
 		  welcome, and i hope you enjoy your stay on this tiny way station in the unfathomably vast expanse of outer space that is the internet.
 		</p>
@@ -68,6 +69,55 @@
 
 	#center {
 		text-align: center;
+	}
+
+	h1 {
+		position: sticky;
+		top: 60px;
+		padding-bottom: 0.5em;
+		opacity: 1;
+		width: 100%;
+		background-color: var(--background-color);
+		transition: background-color 1s ease;
+		
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
+	}
+
+
+	@keyframes pulse {
+	  0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  49% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  50% {
+		transform: scale(1.05);
+	  }
+	  51% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  75% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  100% {
+		transform: scale(1);
+	  }
 	}
 
 	img {

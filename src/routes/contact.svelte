@@ -24,12 +24,14 @@
 	<div class="content"
 	id = "contact-me">
 		<h1>contact me</h1>
-		<p>
+		<p class="sticky-centered-1">
+			i prefer by <a class="pulse-link" href="https://www.etsy.com/market/owl_post_stamp" target="_blank">owl</a> or email.
 		</p>
+		<br>
 	</div>
 	<div class="content"
 	id = "contact-info">
-		<h2><a href="https://ingwon.substack.com" target="_blank">substack</a></h2>
+		<h2><a href="https://ingwon.substack.com?utm_source=affiliate&utm_medium=landing_page&utm_campaign=ingwon_io&utm_content=output&referrer=ingwon_io" target="_blank">substack</a></h2>
 		<br>
 		<h2><a href="https://linkedin.com/in/ingwon" target="_blank">linkedin</a></h2>
 		<br>
@@ -72,6 +74,18 @@
 		transition: background-color 1s ease;
 	}
 
+	.sticky-centered-1 {
+		position: sticky;
+		top: 100px;
+		padding-bottom: 0.5em;
+		text-align: center;
+		opacity: 1;
+		width: 100%;
+		z-index: 1;
+		background-color: var(--background-color);
+		transition: background-color 1s ease;
+	}
+
 	h2 {
 		text-align: center;
 		opacity: 1;
@@ -103,7 +117,7 @@
   	}
 
 	#onlyFans-checkbox:checked + #onlyFans:after {
-		content: "w u actually clicked? relax..";
+		content: "wtf u actually clicked? relax..";
 		position: relative;
 		top: 0;
 		left: 0;
@@ -115,6 +129,44 @@
 		color: var(--text-color);
 		transition: background-color 1s ease;
 		cursor: pointer;
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
+	}
+
+
+	@keyframes pulse {
+	  0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  49% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  50% {
+		transform: scale(1.05);
+	  }
+	  51% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  75% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  100% {
+		transform: scale(1);
+	  }
 	}
 
 

@@ -214,12 +214,6 @@
 					<a href="https://www.youtube.com/watch?v=OPCug9jyG9k" target="_blank">Chungking Express</a>
 				</h3>
 			<br><br><br><br>
-			<h2>Bob Persichetti, Peter Ramsey, and Rodney Rothman</h2>
-			<br><br>
-				<h3>
-					<a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" target="_blank">Spiderman: Into the Spiderverse</a>
-				</h3>
-			<br><br><br><br>
 			<h2>Akira Kurosawa</h2>
 			<br><br>
 				<h3>
@@ -295,6 +289,12 @@
 				<h3>
 					<a href="https://www.youtube.com/watch?v=bggUmgeMCdc" target="_blank">Ex-Machina</a>
 				</h3>
+			<br><br><br><br>
+			<h2>Bob Persichetti, Peter Ramsey, and Rodney Rothman</h2>
+			<br><br>
+				<h3>
+					<a href="https://www.youtube.com/watch?v=g4Hbz2jLxvQ" target="_blank">Spiderman: Into the Spiderverse</a>
+				</h3>
 			<br><br>
 
 		</div> <!--closes class: content id: film-->
@@ -335,6 +335,44 @@
 		width: 100%;
 		background-color: var(--background-color);
 		transition: background-color 1s ease;
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
+	}
+
+
+	@keyframes pulse {
+	  0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  49% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  50% {
+		transform: scale(1.05);
+	  }
+	  51% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  75% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  100% {
+		transform: scale(1);
+	  }
 	}
 
 
