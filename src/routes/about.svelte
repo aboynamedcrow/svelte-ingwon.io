@@ -51,7 +51,7 @@
 		</p>
 		<br>
 		<p>
-		  welcome again, and i hope you enjoy your stay on this tiny way station in the unfathomably vast expanse of outer space that is the internet.
+		  welcome, and i hope you enjoy your stay on this tiny way station in the unfathomably vast expanse of outer space that is the internet.
 		</p>
 		<br>
 	  </div>

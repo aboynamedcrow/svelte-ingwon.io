@@ -34,7 +34,7 @@
 		<h2><a href="https://linkedin.com/in/ingwon" target="_blank">linkedin</a></h2>
 		<br>
 		<h2><input type="checkbox" id="onlyFans-checkbox"/>
-			<label for="onlyFans-checkbox" id="onlyFans">onlyFans</label>
+			<label for="onlyFans-checkbox" id="onlyFans">onlyfans</label>
 		</h2>
 		<br>
 		<h2><a href="https://instagram.com/ingwonstagram" target="_blank">insta</a></h2>
