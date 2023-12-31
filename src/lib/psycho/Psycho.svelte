@@ -8,6 +8,7 @@
           first_name, //writable
           last_name, //writable
           company, //writable
+          email, //writable
           title, //writable
           phone_number, //writable
           bottom_info, //writable
@@ -35,6 +36,7 @@
                     $last_name = $card_values[j].last_name;
                     $company = $card_values[j].company;
                     $title = $card_values[j].title;
+                    $email = $card_values[j].email;
                     $phone_number = $card_values[j].phone_number;
                     $bottom_info = $card_values[j].bottom_info;
                     $murders_and_executions = $card_values[j].murders_and_executions;
@@ -94,6 +96,7 @@
 				    <p class="last-name">{$last_name}</p>
 			    </div>
 			    <p class="title">{$title}</p>
+          <p class="email">{$email}</p>
 		    </div>
 		    <p class="bottom-info">
                 {$bottom_info}</p>
@@ -191,6 +194,9 @@
     .title {
       text-align: center;
       font-size: 0.8em;
+    }
+    .email {
+      text-align: center;
     }
     .bottom-info {
       position: absolute;
@@ -293,6 +299,11 @@
       font-size: 0.76em;
       font-family: inherit;
       text-transform: inherit;
+    }
+    #ingwon-card .email {
+      font-size: 0.76em;
+      font-family: inherit;
+      text-transform: lowercase;
     }
     #patrick-card .watermark,
     #patrick-alt-card .watermark,
