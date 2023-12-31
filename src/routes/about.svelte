@@ -48,7 +48,8 @@
 		</p>
 		<br><br><br>
 		<p>
-		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and jokes.
+		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and <a class="pulse-link" href="https://www.youtube.com/watch?v=lJtHNEDnrnY" target="_blank">
+			jokes</a>.
 		</p>
 		<br><br><br>
 		<p>
