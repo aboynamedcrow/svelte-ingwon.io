@@ -290,6 +290,12 @@
 					<a href="https://www.youtube.com/watch?v=bggUmgeMCdc" target="_blank">Ex-Machina</a>
 				</h3>
 			<br><br><br><br>
+			<h2>Spike Lee</h2>
+			<br><br>
+				<h3>
+					<a href="https://www.youtube.com/watch?v=jc6_XgtOQgI" target="_blank">Do the Right Thing</a>
+				</h3>
+			<br><br><br><br>
 			<h2>Bob Persichetti, Peter Ramsey, and Rodney Rothman</h2>
 			<br><br>
 				<h3>
