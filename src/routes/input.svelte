@@ -25,7 +25,7 @@
 		<br>
 		<h1>input (io)</h1>
 		<br>
-		<p>
+		<p id = "center">
 			input/output (io) is a fundamental concept in computing. inputs - the signals and data received by the system - determine outputs. here are some collections of particularly meaningful inputs throughout my life.
 		</p>
 		<br>
@@ -319,6 +319,10 @@
 		background-color: var(--background-color);
 		height: auto;
 		margin-bottom: 50vh;
+	}
+
+	#center {
+		text-align: center;
 	}
 
 	h1 {
