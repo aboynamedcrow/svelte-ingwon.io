@@ -9,7 +9,9 @@
 
 <div class="content">
 	<h2>
-		welcome. 인권이오. 어서오시오.
+		welcome. 인권이오 어서오시오.
+	</h2>
+	<h2>
 		click my name to navigate
 	</h2>
 	<br>
