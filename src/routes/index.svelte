@@ -12,13 +12,13 @@
 		welcome.
 	</h2>
 	<h2>
-		어서오<a class="pulse-link" href=#/ >시오</a>.
+		어서오시오.
 	</h2>
 	<h2>
 		인권.<a class="pulse-link" href=#/ >이오</a>
 	</h2>
 	<h2>
-		인권<a class="pulse-link" href=#/ >이오</a>.
+		인권이오.
 	</h2>
 	<h2>
 		click my name to navigate
