@@ -49,7 +49,7 @@
 	display: inline-block;
 	border: none;
 	/* Apply the pulse animation */
-	animation: pulse 3.14s infinite;
+	animation: pulse 5s infinite;
 	z-index: -1;
 	}
 
