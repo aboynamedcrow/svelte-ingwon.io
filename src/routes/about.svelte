@@ -57,7 +57,7 @@
 		</p>
 		<br><br><br>
 		<p id="center">
-			어서오시오. -인권.이오
+			어서오시오. -인권.<a class="pulse-link" href=#/ >이오</a>
 		  </p>
 		  <br>
 	  </div>

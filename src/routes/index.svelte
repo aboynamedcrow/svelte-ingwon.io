@@ -12,13 +12,13 @@
 		welcome.
 	</h2>
 	<h2>
-		어서오시오.
+		어서오<a class="pulse-link" href=#/ >시오</a>.
 	</h2>
 	<h2>
-		인권.이오
+		인권.<a class="pulse-link" href=#/ >이오</a>
 	</h2>
 	<h2>
-		인권이오.
+		인권<a class="pulse-link" href=#/ >이오</a>.
 	</h2>
 	<h2>
 		click my name to navigate
@@ -42,6 +42,15 @@
 		margin: var(--column-margin-top) auto 0 auto;
 		padding-bottom: 100vh;
 		margin-bottom: 0;
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
 	}
 
 
