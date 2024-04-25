@@ -15,7 +15,7 @@
 		어서오시오.
 	</h2>
 	<h2>
-		인권.이오
+		인권.<a class="pulse-link" href=#/ >이오</a>
 	</h2>
 	<h2>
 		인권이오.
@@ -42,6 +42,43 @@
 		margin: var(--column-margin-top) auto 0 auto;
 		padding-bottom: 100vh;
 		margin-bottom: 0;
+	}
+
+	.pulse-link {
+	/* Button default styles, customize them to match your button */
+	display: inline-block;
+	border: none;
+	/* Apply the pulse animation */
+	animation: pulse 3.14s infinite;
+	z-index: -1;
+	}
+
+	@keyframes pulse {
+	  0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  49% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  50% {
+		transform: scale(1.05);
+	  }
+	  51% {
+		transform: scale(1.05);
+		color: rgb(89,255,50)
+	  }
+	  75% {
+		transform: scale(1.025);
+		color: rgb(89,255,0,0.7)
+	  }
+	  100% {
+		transform: scale(1);
+	  }
 	}
 
 
