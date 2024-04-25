@@ -42,20 +42,24 @@
 		<br>
 		<br>
 		<br>
-		<p>
+		<p id="center">
 		  pay <a class="pulse-link" href=/about >
 			attention</a> 👀 as you explore. 
 		</p>
 		<br><br><br>
-		<p>
+		<p id="center">
 		  its design and contents reflect the things i enjoy and that matter to me, including, among other things: memories, secrets, thoughts, feelings and <a class="pulse-link" href="https://www.youtube.com/watch?v=lJtHNEDnrnY" target="_blank">
 			jokes</a>.
 		</p>
 		<br><br><br>
-		<p>
+		<p id="center">
 		  welcome, and i hope you enjoy your stay on this tiny way station in the unfathomably vast expanse of outer space that is the internet.
 		</p>
-		<br>
+		<br><br><br>
+		<p id="center">
+			어서오시오. -인권.이오
+		  </p>
+		  <br>
 	  </div>
 </div>
 

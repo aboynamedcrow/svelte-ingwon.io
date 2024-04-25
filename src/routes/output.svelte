@@ -29,7 +29,7 @@
 		<br>
 		<h1>output (io)</h1>
 		<br>
-		<p>
+		<p id = "center">
 			drawing from the concept of input/output (io) in computing, here are some of my outputs, which reflect all the inputs (people, experiences, ideas) that i have processed throughout my life.
 		</p>
 		<br>
@@ -115,6 +115,10 @@
 		background-color: var(--background-color);
 		height: auto;
 		margin-bottom: 50vh;
+	}
+
+	#center {
+		text-align: center;
 	}
 
 	h1 {
